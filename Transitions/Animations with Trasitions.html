@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animations and Trasitions</title>
+	<style type="text/css">
+
+.box{
+			margin:auto;
+			margin-top: 200px;
+			height: 200px;
+			width: 200px;
+			background-color: green;
+			cursor: center;
+			line-height: 200px;
+
+			color:white;
+			text-align: center;
+			
+
+			 /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property:   background-color, border-radius;
+   -webkit-transition-duration: 5s;
+    -webkit-transition-timing-function:linear;
+  
+    /* Standard syntax */
+    transition-property: background-color , border-radius;
+    transition-duration: 5s;
+   transition-timing-function:linear;
+   
+
+		}
+
+		.box:hover{
+			background-color: orange;
+			border-radius: 100px
+	
+		
+		}
+	
+	</style>
+</head>
+<body>
+
+		<div class="box">Box</div>
+</body>
+</html>
